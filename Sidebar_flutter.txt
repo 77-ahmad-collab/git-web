@@ -1,0 +1,89 @@
+import 'package:flutter/material.dart';
+
+
+void main()=>runApp(myApp());
+
+class myApp extends StatelessWidget
+{
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title:'DRAWER',
+      theme: ThemeData(
+        primaryColor: Colors.green,
+      ),
+      home: home(),
+    );
+  }
+
+}
+
+class home extends StatefulWidget
+{
+  @override
+ State<StatefulWidget> createState() {
+
+    return _home();
+  }
+
+}
+
+class _home extends State<home>
+{
+
+  Color whitecolor =Colors.white;
+  @override
+  Widget build(BuildContext context) {
+
+    return Scaffold(
+      drawer:Mydrawer(),
+      appBar: AppBar(title: Text('WELCOME'),actions: <Widget>[Padding(padding: EdgeInsets.only(right:20),child: GestureDetector(onTap: (){},onTapDown: (value){setState(() {
+        whitecolor=Colors.red;
+      },);},onTapUp: (value){setState(() {
+        whitecolor=Colors.white;
+      });},child: Icon(Icons.home,color: whitecolor,))),Icon(Icons.lock)],),
+      body: Container(),
+    );
+  }
+
+}
+
+class Mydrawer extends StatefulWidget
+{
+  @override
+  State<StatefulWidget> createState() {
+
+    return _Mydrawer();
+  }
+
+}
+
+class _Mydrawer extends State<Mydrawer>
+{
+  @override
+  Widget build(BuildContext context) {
+    return Drawer(
+        child:ListView(
+          children: <Widget>[
+            ListTile(
+              leading: Icon(Icons.exit_to_app,size: 30,color: Colors.black26,),
+              title: Text('EXIT'),
+              onTap: ()
+              {
+
+              },
+            ),
+              ListTile(
+                leading: Icon(Icons.exit_to_app,size: 30,color: Colors.black26,),
+                title: Text('EXIT'),
+                onTap: ()
+                    {
+
+                    },
+              )
+          ],
+
+        )
+    );
+  }
+}
