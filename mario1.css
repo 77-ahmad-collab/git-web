@@ -1,0 +1,189 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header,footer,nav,section,article,aside,hgroup{
+	display:block;
+}
+body{
+    margin: 0px;
+}
+header{
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+header h1{
+    color: white;
+    padding: 10px;
+    border: 3px solid white;
+    display: inline-block;
+    border-radius: 36px;
+}
+/*header{
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    font-size: 15px;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+}
+header h1{
+    border: 3px solid white;
+    display: inline-block;
+    color: white;
+    border-radius: 36px;
+    padding: 10px ;
+}*/
+.banner img{
+    max-width: 100%;
+}
+.banner{
+    position: relative;
+}
+.banner .welcome{
+    position: absolute;
+    background-color: orange;
+    padding: 10px;
+    font-size: 40px;
+    top: 40%;
+    
+}
+.banner h2{
+    color: white;
+}
+.banner  h2 span{
+    font-size: 80px;
+}
+.top-menu{
+    background-color: rgb(211, 208, 208);
+    padding: 20px;
+    position: sticky;
+    top: 80px;
+    left: 0px;
+}
+.top-menu ul li a{
+    text-decoration: none;
+    
+}
+.top-menu ul{
+    white-space: nowrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.top-menu li{
+    width: 25%;
+    display: inline-block;
+    font:bold 20px tahoma;
+}
+.main_part{
+    max-width: 100%;
+    width: 1000px;
+    margin: 80px auto;
+    padding: 0 60px;
+    box-sizing: border-box;
+}
+.main_part .article-1 h2{
+    color: red;
+    font-size: 40px;
+    padding: 5px 0px;
+}
+.main_part .article-1 p{
+    line-height: 1.5;
+    padding: 20px 0;
+}
+.main_part .images {
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+}
+.images li{
+    display: inline-block;
+    width: 40%;
+    margin: 0 20px;
+}
+.images li img{
+    max-width: 100%;
+}
+.join{
+    text-align: center;
+    max-width: 100%;
+    background-color: #dadada;
+    padding: 20px;
+}
+.join h2{
+    padding: 15px;
+}
+.join form input{
+    border-color:black;
+    border-radius: 36px;
+    padding: 10px;
+    margin-top: 15px;
+    outline: none;
+}
+footer{
+    background-color: red;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+}
+.top-menu li:hover{
+    text-decoration: underline;
+}
+.images li:hover{
+   position: relative;
+   top: -4px;
+}
+form input:focus{
+    border: yellow;
+}
+form input:valid{
+    border: 3px solid green;
+}
+@media screen and (max-width:1400px){
+    .banner .welcome h2{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:960px){
+    .banner .welcome {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:700px){
+    .banner .welcome h2{
+        position: absolute;
+        text-align: center;
+    }
+    .banner .welcome br{
+        display: none;
+    }
+    .banner .welcome h2{
+        font-size: 25px;
+    }
+    .banner .welcome span{
+        font-size: 25x;
+    }
+    .images li{
+        width: 100%;
+        margin: 20px;
+        display: block;
+    }
+}
+@media screen and (max-width:500px){
+    .top-menu li{
+        font-size: 20px;
+        display: block;
+        width: 100%;
+        margin: 12px 0;
+    }
+}
