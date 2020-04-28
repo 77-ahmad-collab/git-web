@@ -1,0 +1,505 @@
+/*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: inherit;
+}*/
+/*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    color: white;
+    background: black;
+    margin: 0px;
+    width: 100%;
+}
+.header h1{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25%;
+}
+.top-header u1{
+    padding-right: 20%;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+.top-header u1::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.top-header li{
+    list-style: none;
+    padding: 5px;
+    display: inline-block;
+}
+.top-header li a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+.banner{
+    position: relative;
+    margin-bottom: 0px;
+    border: none;
+    white-space: nowrap;
+}
+.banner-text{
+    position: absolute;
+    top: 400px;
+    left: 25%;
+    text-align: center;
+}
+.banner-text h1{
+    padding: 20px;
+    color:rgb(250, 180, 126);
+}
+.banner-text .color{
+    color: white;
+}
+.banner-text p{
+    padding: 5px;
+    color: white;
+}
+.banner-text .button1{
+    padding: 8px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 1px solid black;
+    border: none;
+}
+.parent-section{
+    height: 220px;
+    overflow: hidden;
+}
+.section,.aside{
+    float: left;
+    width: 50%;
+    margin-top: 0px;
+
+}
+.aside{
+    
+    height: 100%;
+    width: 40%;
+    background-color: black;
+    text-align:center;
+    padding: 66px;
+}
+.aside h1{
+    color:rgb(250, 180, 126);
+    padding: 10px;
+}
+.aside .color{
+    color: white;
+}
+.aside p{
+    color: white;
+    padding: 10px;
+}
+aside button{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+footer{
+    padding: 5px;
+}
+.icon1,.icon2,.icon3{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+.icon1:hover{
+    background-color: rgb(250,180,126);
+}
+.icon2:hover{
+    background-color: rgb(250,180,126);
+}
+.icon3:hover{
+    background-color: rgb(250,180,126);
+}
+.icon1 h1,p{
+    padding: 10px;
+    padding-left: 0px;
+}
+.icon2 h1,p{
+    padding: 10px;
+    padding-left: 0px;
+}
+.icon3 h1,p{
+    padding: 10px;
+    padding-left: 0px;
+}
+.setp{
+    text-align: center;
+}
+.about-wrap{
+    width: 100%;
+    margin: 0px;
+}
+.about-cont{
+    background-color: lightgray;
+    padding-left: 20%;
+}
+.about-cont p{
+    line-height: 1.5;
+    padding-left: 0px;
+    padding-bottom: 40px;
+}
+.about-cont h1{
+    padding: 10px;
+    padding-left: 0px;
+    color:rgb(250, 180, 126);
+    font-size: 40px;
+}
+.about-cont .color{
+    color: black;
+}
+.postion1 h1{
+    color:rgb(250, 180, 126);
+    font-size: 40px;
+    padding-left: 27%;
+    font-weight: bold;
+}
+.postion1 .color{
+    color: white;
+}
+.postion1 p{
+    background-color:rgb(250, 180, 126);
+    margin: 10px;
+    margin-left: 0px;
+    padding: 20px;
+   
+    width: 80%;
+    border-radius: 5px;
+}
+.aboutimage{
+    position: relative;
+}
+.postion1{
+    
+    position: absolute;
+    top: 400px;
+    left: 18%;
+}
+.name,.email,.message{
+    padding: 5px;
+    margin: 10px;
+    margin-left: 0px;
+}
+.paragraph1,.heading1,.form{
+    padding-left: 25%;
+}
+.contact-wrap,.heading1{
+    color: rgb(250, 180, 126);
+}
+.contact-wrap p{
+    padding-left: 25%;
+}
+.submit{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+.heading1{
+    padding-top: 5px;
+}
+.contact-footer{
+    background-color: black;
+    margin: 0px;
+    height: 195px;
+}
+.contact-icon1{
+    float: left;
+    text-align: center;
+    width: 25%;
+    padding-left:15%;
+    
+}
+.contact-icon1 p{
+    padding-left: 0px;
+    margin: 10px;
+} 
+.contact-icon1 h1{
+    margin: 20px;
+}
+.contact-icon2{
+    float: left;
+    text-align: center;
+    width: 20%;
+}
+.contact-icon3{
+     text-align: center;
+    padding-right: 15%;
+}
+.contact-icon2 h1{
+    margin: 20px;
+}
+.contact-icon3 h1{
+    margin: 20px;
+}
+.top-header li a:hover{
+    color: rgb(250, 180, 126);
+    
+}*/
+/*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: inherit;
+}*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    color: white;
+    background: black;
+    margin: 0px;
+    width: 100%;
+}
+.header h1{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25%;
+}
+.top-header u1{
+    padding-right: 20%;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+.top-header u1::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.top-header li{
+    list-style: none;
+    padding: 5px;
+    display: inline-block;
+}
+.top-header li a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+.banner{
+  max-height: 900px;
+}
+.banner-text{
+    position: absolute;
+    top: 400px;
+    left: 25%;
+    text-align: center;
+}
+.banner-text h1{
+    padding: 20px;
+    color:rgb(250, 180, 126);
+}
+.banner-text .color{
+    color: white;
+}
+.banner-text p{
+    padding: 5px;
+    color: white;
+}
+.banner-text .button1{
+    padding: 8px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 1px solid black;
+    border: none;
+}
+.parent-section{
+    height: 220px;
+    overflow: hidden;
+}
+.section,.aside{
+    float: left;
+    width: 50%;
+    margin-top: 0px;
+
+}
+
+.aside{
+    width:50%;
+    padding: 50px;
+    height: 350px;
+    text-align: center;
+    background-color: black;
+    box-sizing: border-box;
+}
+.aside h1{
+    color:rgb(250, 180, 126);
+    
+}
+.aside .color{
+    color: white;
+}
+.aside p{
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+    
+}
+aside button{
+   padding: 10px;
+   border-radius: 10px;
+   
+}
+footer{
+    
+}
+.icon1,.icon2,.icon3{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+.icon1:hover{
+    background-color: rgb(250,180,126);
+   
+}
+.icon2:hover{
+    background-color: rgb(250,180,126);
+}
+.icon3:hover{
+    background-color: rgb(250,180,126);
+}
+.icon1 h1,p{
+    padding: 10px;
+    padding-left: 0px;
+}
+.icon2 h1,p{
+    padding: 10px;
+    padding-left: 0px;
+}
+.icon3 h1,p{
+    padding: 10px;
+    padding-left: 0px;
+}
+.setp{
+    text-align: center;
+}
+.about-wrap{
+    width: 100%;
+    margin: 0px;
+}
+.about-cont{
+    background-color: lightgray;
+    padding-left: 20%;
+}
+.about-cont p{
+    line-height: 1.5;
+    padding-left: 0px;
+    padding-bottom: 40px;
+}
+.about-cont h1{
+    padding: 10px;
+    padding-left: 0px;
+    color:rgb(250, 180, 126);
+    font-size: 40px;
+}
+.about-cont .color{
+    color: black;
+}
+.postion1 h1{
+    color:rgb(250, 180, 126);
+    font-size: 40px;
+    padding-left: 27%;
+    font-weight: bold;
+}
+.postion1 .color{
+    color: white;
+}
+.postion1 p{
+    background-color:rgb(250, 180, 126);
+    margin: 10px;
+    margin-left: 0px;
+    padding: 20px;
+   
+    width: 80%;
+    border-radius: 5px;
+}
+.aboutimage{
+    position: relative;
+}
+.postion1{
+    
+    position: absolute;
+    top: 400px;
+    left: 18%;
+}
+.name,.email,.message{
+    padding: 5px;
+    margin: 10px;
+    margin-left: 0px;
+}
+.paragraph1,.heading1,.form{
+    padding-left: 25%;
+}
+.contact-wrap,.heading1{
+    color: rgb(250, 180, 126);
+}
+.contact-wrap p{
+    padding-left: 25%;
+}
+.submit{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+.heading1{
+    padding-top: 5px;
+}
+.contact-footer{
+    background-color: black;
+    margin: 0px;
+    height: 195px;
+}
+.contact-icon1{
+    float: left;
+    text-align: center;
+    width: 25%;
+    padding-left:15%;
+    
+}
+.contact-icon1 p{
+    padding-left: 0px;
+    margin: 10px;
+} 
+.contact-icon1 h1{
+    margin: 20px;
+}
+.contact-icon2{
+    float: left;
+    text-align: center;
+    width: 20%;
+}
+.contact-icon3{
+     text-align: center;
+    padding-right: 15%;
+}
+.contact-icon2 h1{
+    margin: 20px;
+}
+.contact-icon3 h1{
+    margin: 20px;
+}
+.top-header li a:hover{
+    color: rgb(250, 180, 126);
+    
+}
